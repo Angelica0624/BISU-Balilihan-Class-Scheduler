@@ -37,8 +37,10 @@ public class MAINMENU extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("BISU-Balilihan Class Scheduler");
 
-        jTabbedPane1.setName("File"); // NOI18N
-        jTabbedPane1.addTab("tab1", jTabbedPane2);
+        jTabbedPane1.setName("Files"); // NOI18N
+
+        jTabbedPane2.setName(""); // NOI18N
+        jTabbedPane1.addTab("Files", jTabbedPane2);
         jTabbedPane1.addTab("tab2", jTabbedPane3);
         jTabbedPane1.addTab("tab3", jTabbedPane4);
         jTabbedPane1.addTab("tab4", jTabbedPane5);
