@@ -16,6 +16,7 @@ public class MAINMENU extends javax.swing.JFrame {
      */
     public MAINMENU() {
         initComponents();
+        System.out.println("Hello world");
     }
 
     /**
