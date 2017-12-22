@@ -34,14 +34,10 @@ public class MainMenu extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
-        jMenu9 = new javax.swing.JMenu();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
         jMenu10 = new javax.swing.JMenu();
         jMenuItem12 = new javax.swing.JMenuItem();
         jMenuItem13 = new javax.swing.JMenuItem();
         jMenuItem14 = new javax.swing.JMenuItem();
-        jMenuItem15 = new javax.swing.JMenuItem();
         jMenuItem16 = new javax.swing.JMenuItem();
         jMenuItem17 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
@@ -100,16 +96,6 @@ public class MainMenu extends javax.swing.JFrame {
 
         jMenu2.setText("Management");
 
-        jMenu9.setText("System Files");
-
-        jMenuItem5.setText("User Master");
-        jMenu9.add(jMenuItem5);
-
-        jMenuItem6.setText("Document Control Master");
-        jMenu9.add(jMenuItem6);
-
-        jMenu2.add(jMenu9);
-
         jMenu10.setText("Master Files");
 
         jMenuItem12.setText("Department Master");
@@ -125,9 +111,6 @@ public class MainMenu extends javax.swing.JFrame {
 
         jMenuItem14.setText("Subject Master");
         jMenu10.add(jMenuItem14);
-
-        jMenuItem15.setText("Major Master");
-        jMenu10.add(jMenuItem15);
 
         jMenuItem16.setText("Faculty Master");
         jMenu10.add(jMenuItem16);
@@ -226,13 +209,11 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
-    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem12;
     private javax.swing.JMenuItem jMenuItem13;
     private javax.swing.JMenuItem jMenuItem14;
-    private javax.swing.JMenuItem jMenuItem15;
     private javax.swing.JMenuItem jMenuItem16;
     private javax.swing.JMenuItem jMenuItem17;
     private javax.swing.JMenuItem jMenuItem18;
@@ -242,8 +223,6 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem21;
     private javax.swing.JMenuItem jMenuItem22;
     private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
